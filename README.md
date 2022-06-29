@@ -29,7 +29,7 @@ for stock emacs.
 ### Doom Emacs (package!)
 
 ```elisp
-(package! everforest-hard-dark-theme
+(package! everforest-theme
   :recipe (:repo "https://git.sr.ht/~theorytoe/everforest-theme"))
   
 (use-package! 'everforest-theme')
