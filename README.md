@@ -20,7 +20,7 @@ for stock emacs.
 
 ```elisp
 (straight-use-package
-  '(everforest-theme) :type git :repo "https://git.sr.ht/~theorytoe/everforest-theme")
+  '(everforest) :type git :repo "https://git.sr.ht/~theorytoe/everforest-theme")
 
 (load-theme 'everforest-hard-dark t)
 ;; (load-theme 'everforest-hard-light t)
@@ -29,10 +29,10 @@ for stock emacs.
 ### Doom Emacs (package!)
 
 ```elisp
-(package! everforest-theme
+(package! everforest
   :recipe (:repo "https://git.sr.ht/~theorytoe/everforest-theme"))
   
-(use-package! 'everforest-theme')
+(use-package! 'everforest')
 
 (load-theme 'everforest-hard-dark t)
 ;; (load-theme 'everforest-hard-light t)
@@ -49,7 +49,7 @@ git clone https://git.sr.ht/~theorytoe/everforest-theme ~/.emacs.d/everforest-th
 Add the theme to your custom-theme alist and load it
 
 ```elisp
-(add-to-list 'custom-theme-load-path "~/.emacs.d/everforest-theme")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/everforest")
 (load-theme 'everforest-hard-dark t)
 ```
 
