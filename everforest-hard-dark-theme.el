@@ -751,6 +751,18 @@
    `(js2-jsdoc-value       ((t (:foreground ,everforest-hard-dark-red))))
    `(js2-object-property   ((t (:foreground ,everforest-hard-dark-red))))
 
+   ;; whitespace-mode
+   `(whitespace-big-indent ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-empty ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-hspace ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-indentation ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-line ((t (:background ,everforest-hard-dark-bg))))
+   `(whitespace-newline ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-space ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-space-after-tab ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-space-before-tab ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-tab ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-trailing ((t (:foreground ,everforest-hard-dark-silver))))
    ))
 
 (everforest-hard-dark-with-color-variables
