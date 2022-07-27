@@ -37,7 +37,7 @@
 		  ("everforest-hard-dark-bg-1"     . "#323c41")
 		  ("everforest-hard-dark-bg-hl"    . "#3a454a")
 		  ("everforest-hard-dark-gutter"   . "#445055")
-		  ("everforest-hard-dark-mono-1"   . "#ABB2BF")
+		  ("everforest-hard-dark-mono-1"   . "#abb2bf")
 		  ("everforest-hard-dark-mono-2"   . "#503946")
 		  ("everforest-hard-dark-mono-3"   . "#859289")
 		  ("everforest-hard-dark-cyan"     . "#83c092")
@@ -752,17 +752,17 @@
    `(js2-object-property   ((t (:foreground ,everforest-hard-dark-red))))
 
    ;; whitespace-mode
-   `(whitespace-big-indent ((t (:foreground ,everforest-hard-dark-border))))
-   `(whitespace-empty ((t (:foreground ,everforest-hard-dark-border))))
-   `(whitespace-hspace ((t (:foreground ,everforest-hard-dark-border))))
-   `(whitespace-indentation ((t (:foreground ,everforest-hard-dark-border))))
-   `(whitespace-line ((t (:background ,everforest-hard-dark-bg))))
-   `(whitespace-newline ((t (:foreground ,everforest-hard-dark-border))))
-   `(whitespace-space ((t (:foreground ,everforest-hard-dark-border))))
-   `(whitespace-space-after-tab ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-big-indent       ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-empty            ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-hspace           ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-indentation      ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-line             ((t (:background ,everforest-hard-dark-bg)))) ;; longer than 80
+   `(whitespace-newline          ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-space            ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-space-after-tab  ((t (:foreground ,everforest-hard-dark-border))))
    `(whitespace-space-before-tab ((t (:foreground ,everforest-hard-dark-border))))
-   `(whitespace-tab ((t (:foreground ,everforest-hard-dark-border))))
-   `(whitespace-trailing ((t (:foreground ,everforest-hard-dark-silver))))
+   `(whitespace-tab              ((t (:foreground ,everforest-hard-dark-border))))
+   `(whitespace-trailing         ((t (:foreground ,everforest-hard-dark-silver))))
    ))
 
 (everforest-hard-dark-with-color-variables
