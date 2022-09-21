@@ -494,7 +494,8 @@
    `(elfeed-search-date-face          ((t (:foreground ,everforest-hard-dark-purple))))
    `(elfeed-search-feed-face          ((t (:foreground ,everforest-hard-dark-yellow))))
    `(elfeed-search-tag-face           ((t (:foreground ,everforest-hard-dark-green))))
-   `(elfeed-search-title-face         ((t (:foreground ,everforest-hard-dark-mono-1))))
+   `(elfeed-search-title-face         ((t (:foreground ,everforest-hard-dark-silver))))
+   `(elfeed-search-unread-title-face  ((t (:foreground ,everforest-hard-dark-mono-1 :weight bold))))
    `(elfeed-search-unread-count-face  ((t (:foreground ,everforest-hard-dark-silver))))
 
    ;; perspective
