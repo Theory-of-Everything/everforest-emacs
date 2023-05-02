@@ -757,7 +757,7 @@
    `(whitespace-empty            ((t (:foreground ,everforest-hard-dark-border))))
    `(whitespace-hspace           ((t (:foreground ,everforest-hard-dark-border))))
    `(whitespace-indentation      ((t (:foreground ,everforest-hard-dark-border))))
-   `(whitespace-line             ((t (:background ,everforest-hard-dark-bg)))) ;; longer than 80
+   `(whitespace-line             ((t (:background ,everforest-hard-dark-border))))
    `(whitespace-newline          ((t (:foreground ,everforest-hard-dark-border))))
    `(whitespace-space            ((t (:foreground ,everforest-hard-dark-border))))
    `(whitespace-space-after-tab  ((t (:foreground ,everforest-hard-dark-border))))
