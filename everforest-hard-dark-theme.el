@@ -76,7 +76,7 @@
    `(link-visited        ((t (:foreground ,everforest-hard-dark-blue :underline t :weight normal))))
    `(cursor              ((t (:background ,everforest-hard-dark-fg))))
    `(fringe              ((t (:background ,everforest-hard-dark-bg :foreground ,everforest-hard-dark-silver))))
-   `(region              ((t (:background ,everforest-hard-dark-gray :distant-foreground ,everforest-hard-dark-mono-2))))
+   `(region              ((t (:background ,everforest-hard-dark-gutter :distant-foreground ,everforest-hard-dark-mono-2))))
    `(highlight           ((t (:background ,everforest-hard-dark-gray :distant-foreground ,everforest-hard-dark-mono-2))))
    `(hl-line             ((t (:background ,everforest-hard-dark-visual :distant-foreground nil))))
    `(header-line         ((t (:background ,everforest-hard-dark-black))))
