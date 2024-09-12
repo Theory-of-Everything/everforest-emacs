@@ -28,5 +28,5 @@
 ;; 		  (file-name-as-directory
 ;; 		   (file-name-directory load-file-name))))
 
-;; (provide 'everforest-theme)
+(provide 'everforest-theme)
 ;;; everforest.el ends here
