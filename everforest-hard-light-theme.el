@@ -33,10 +33,10 @@
 (defvar everforest-hard-light-colors-alist
   (let ((colors `(("everforest-hard-light-accent"   . "#8da101")
 		  ("everforest-hard-light-fg"       . "#5c6a72")
-		  ("everforest-hard-light-bg"       . "#fff9e8")
-		  ("everforest-hard-light-bg-1"     . "#f7f4e0")
-		  ("everforest-hard-light-bg-hl"    . "#f0eed9")
-		  ("everforest-hard-light-gutter"   . "#e9e8d2")
+		  ("everforest-hard-light-bg"       . "#fffbef")
+		  ("everforest-hard-light-bg-1"     . "#f8f5e4")
+		  ("everforest-hard-light-bg-hl"    . "#f2efdf")
+		  ("everforest-hard-light-gutter"   . "#edeada")
 		  ("everforest-hard-light-mono-1"   . "#a6b0a0")
 		  ("everforest-hard-light-mono-2"   . "#939f91")
 		  ("everforest-hard-light-mono-3"   . "#829181")
@@ -49,7 +49,7 @@
 		  ("everforest-hard-light-yellow"   . "#dfa000")
 		  ("everforest-hard-light-gray"     . "#a6b0a0")
 		  ("everforest-hard-light-silver"   . "#9da9a0")
-		  ("everforest-hard-light-black"    . "#fff9e8")
+		  ("everforest-hard-light-black"    . "#fffbef")
 		  ("everforest-hard-light-border"   . "#5c6a72")
 		  ("everforest-hard-light-visual"   . "#edf0cd"))))
     colors)
@@ -76,7 +76,7 @@
    `(link-visited        ((t (:foreground ,everforest-hard-light-blue :underline t :weight normal))))
    `(cursor              ((t (:background ,everforest-hard-light-fg))))
    `(fringe              ((t (:background ,everforest-hard-light-bg :foreground ,everforest-hard-light-silver))))
-   `(region              ((t (:background ,everforest-hard-light-gray :distant-foreground ,everforest-hard-light-mono-2))))
+   `(region              ((t (:background ,everforest-hard-light-visual :distant-foreground ,everforest-hard-light-mono-2))))
    `(highlight           ((t (:background ,everforest-hard-light-gray :distant-foreground ,everforest-hard-light-mono-2))))
    `(hl-line             ((t (:background ,everforest-hard-light-visual :distant-foreground nil))))
    `(header-line         ((t (:background ,everforest-hard-light-black))))
@@ -617,11 +617,11 @@
    `(tabbar-selected-modified   ((,class (:inherit tabbar-selected :foreground ,everforest-hard-light-purple :underline nil :box (:line-width 1 :color ,everforest-hard-light-bg)))))
 
    ;; linum
-   `(linum                    ((t (:foreground ,everforest-hard-light-gutter :background ,everforest-hard-light-bg))))
+   `(linum                    ((t (:foreground ,everforest-hard-light-gray :background ,everforest-hard-light-bg))))
    ;; hlinum
    `(linum-highlight-face     ((t (:foreground ,everforest-hard-light-fg :background ,everforest-hard-light-bg))))
    ;; native line numbers (emacs version >=26)
-   `(line-number              ((t (:foreground ,everforest-hard-light-gutter :background ,everforest-hard-light-bg))))
+   `(line-number              ((t (:foreground ,everforest-hard-light-gray :background ,everforest-hard-light-bg))))
    `(line-number-current-line ((t (:foreground ,everforest-hard-light-fg :background ,everforest-hard-light-bg))))
 
    ;; regexp-builder
