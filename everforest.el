@@ -1,10 +1,10 @@
 ;;; everforest.el --- Everforest Theme pack -*- lexical-binding: t; -*-
 ;;
-;; Copyright (C) 2022 Evan Sarris
+;; Copyright (C) 2022-2024 theorytoe
 ;;
-;;  Author: Theory_of_Everything <evan@theoryware.net>
+;;  Author: theorytoe <theorytoe@cock.li>
 ;;  Version: 0.1
-;;  Homepage: https://git.sr.ht/~theorytoe/everforest-theme
+;;  Homepage: https://github.com/Theory-of-Everything/everforest-emacs
 ;;  Package-Requires: ((emacs "24"))
 ;;
 ;; This file is not part of GNU Emacs.

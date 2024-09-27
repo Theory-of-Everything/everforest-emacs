@@ -1,9 +1,9 @@
 ;;; everforest-hard-light-theme.el --- Everforest Hard light Theme -*- lexical-binding: t; -*-
 
-;; Copyright (C) 2022 Evan Sarris
+;; Copyright (C) 2022-2024 theorytoe
 
-;; Author: Theory_of_Everything <evan@theoryware.net>
-;; URL: https://git.sr.ht/~theorytoe/everforest-theme
+;; Author: theorytoe <theorytoe@cock.li>
+;; URL: https://github.com/Theory-of-Everything/everforest-emacs
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 
