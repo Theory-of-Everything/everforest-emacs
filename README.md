@@ -12,7 +12,7 @@ and cosmetic reasons.
 ![Dark | Light](./dark_light.png)
 
 ## Installation
-   
+
 This theme is not on MELPA (yet), so a manual install is required
 for stock emacs.
 
@@ -20,7 +20,7 @@ for stock emacs.
 
 ```elisp
 (straight-use-package
-  '(everforest) :type git :repo "https://git.sr.ht/~theorytoe/everforest-theme")
+  '(everforest) :type git :repo "https://github.com/Theory-of-Everything/everforest-emacs.git")
 
 (load-theme 'everforest-hard-dark t)
 ;; (load-theme 'everforest-hard-light t)
@@ -30,8 +30,8 @@ for stock emacs.
 
 ```elisp
 (package! everforest
-  :recipe (:repo "https://git.sr.ht/~theorytoe/everforest-theme"))
-  
+  :recipe (:repo "https://github.com/Theory-of-Everything/everforest-emacs.git"))
+
 (use-package! 'everforest')
 
 (load-theme 'everforest-hard-dark t)
@@ -43,7 +43,7 @@ for stock emacs.
 Clone the Repo
 
 ```bash
-git clone https://git.sr.ht/~theorytoe/everforest-theme ~/.emacs.d/everforest-theme
+git clone https://github.com/Theory-of-Everything/everforest-emacs.git ~/.emacs.d/everforest-theme
 ```
 
 Add the theme to your custom-theme alist and load it
