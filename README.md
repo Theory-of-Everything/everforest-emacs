@@ -49,7 +49,7 @@ git clone https://github.com/Theory-of-Everything/everforest-emacs.git ~/.emacs.
 Add the theme to your custom-theme alist and load it
 
 ```elisp
-(add-to-list 'custom-theme-load-path "~/.emacs.d/everforest")
+(add-to-list 'custom-theme-load-path "~/.emacs.d/everforest-theme")
 (load-theme 'everforest-hard-dark t)
 ```
 
