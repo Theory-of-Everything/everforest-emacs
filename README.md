@@ -20,7 +20,7 @@ for stock emacs.
 
 ```elisp
 (straight-use-package
-  '(everforest) :type git :repo "https://github.com/Theory-of-Everything/everforest-emacs.git")
+  '(everforest :type git :repo "https://github.com/Theory-of-Everything/everforest-emacs.git"))
 
 (load-theme 'everforest-hard-dark t)
 ;; (load-theme 'everforest-hard-light t)
